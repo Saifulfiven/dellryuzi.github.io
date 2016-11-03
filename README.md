@@ -4,7 +4,7 @@
 
 
 ## Used Syntax :
-1. <table>
+1. table
 2. class
 3. etc
 
