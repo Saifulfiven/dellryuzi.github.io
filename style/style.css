@@ -1,0 +1,105 @@
+/** day 4 **/
+/*.header, .body, .comment {
+border-top: 15px solid orange;
+}
+
+.header {
+  background-color: yellow;
+  border-bottom: 15px solid yellow ;
+}
+*/
+*{
+	
+}
+body {
+    
+    color: #F00;
+    margin: 0;
+    padding: 0;
+	background: url(../img/aws.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/** header **/
+.header {
+  background-color: #FF0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 5px;
+  border: 5px dashed black;
+
+
+}
+
+.header h2 {
+  letter-spacing: 0px;
+  font-style: italic;
+}
+
+
+/** body **/
+.body {
+  background-color: white;
+  color : #000;
+  margin : 50px  ;
+  border: 1px solid black;
+  padding: 70px 40px;
+}
+
+.body p {
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+/** comment **/
+.comment {
+  background-color: #ffcccc;
+ font-family: Courier, sans-serif;
+ float: right;
+ border-left: 10px solid black;
+ border-bottom-left-radius: 3em;
+ border-top-left-radius: 3em;
+ padding: 60px;
+ 
+  background: -webkit-linear-gradient(green, yellow); 
+    background: -o-linear-gradient(green, yellow); 
+    background: -moz-linear-gradient(green, yellow); 
+    background: linear-gradient(green, yellow); 
+   
+}
+
+.comment h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+}
+/** image **/
+ .img-circle {
+    border-radius: 50%;
+	border: 2px solid black;
+	
+	
+}
+
+.body img {
+	width: 26%;
+	margin: auto;
+	display: block;
+	
+}
+
+table, th, td {
+    border: 1px solid black;
+	font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#test{
+	margin: auto;
+	color: red;
+}
